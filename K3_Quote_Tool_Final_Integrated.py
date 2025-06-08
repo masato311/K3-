@@ -175,6 +175,7 @@ root.configure(bg="#fff0e6")
 style = ttk.Style()
 style.configure("TLabel", background="#fff0e6", font=("Arial", 10))
 style.configure("TButton", font=("Arial", 10))
+style.configure("TFrame", background="#fff0e6")
 
 frame_top = ttk.Frame(root, padding=10)
 frame_top.pack(fill="x")
